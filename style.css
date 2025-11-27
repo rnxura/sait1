@@ -1,0 +1,149 @@
+body{margin: 0;}
+.ura
+{
+    width: 100%;
+    height: 40px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    color:black;
+}
+a:hover{background-color: burlywood;
+    transition: 1s;
+}
+h1{text-align: center;}
+.main
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+display: grid;
+grid-template-columns: 200px 200px 200px 200px 200px;
+grid-template-rows: 300px 300px 450px;
+grid-template-areas:
+"raz raz dva tri fo "
+"five six dva seven eight"
+"nine six ten ten ten"
+;
+border: none;
+}
+div{border: 1px solid black;}
+.raz{grid-area:raz ;background-color: red;opacity: 0.5;}
+.dva{grid-area:dva ;background-color:blue ;opacity: 0.5;}
+.tri{grid-area: tri;background-color: green;opacity: 0.5;}
+.fo{grid-area: fo;background-color: greenyellow;opacity: 0.5;}
+.five{grid-area:five ;background-color:yellow ;opacity: 0.5;}
+.six{grid-area: six;background-color: orange;opacity: 0.5;}
+.seven{grid-area:seven ;background-color:fuchsia ;opacity: 0.5;}
+.eight{grid-area:eight ;background-color:aqua ;opacity: 0.5;}
+.nine{grid-area:nine ;background-color: aquamarine;opacity: 0.5;}
+.ten{grid-area:ten ;background-color: palevioletred;opacity: 0.5;}
+
+.raz:hover{opacity: 1;transition: 1s}
+.dva:hover{opacity: 1;transition: 1s}
+.tri:hover{opacity: 1;transition: 1s}
+.fo:hover{opacity: 1;transition: 1s}
+.five:hover{opacity: 1;transition: 1s}
+.six:hover{opacity: 1;transition: 1s}
+.seven:hover{opacity: 1;transition: 1s}
+.eight:hover{opacity: 1;transition: 1s}
+.nine:hover{opacity: 1;transition: 1s}
+.ten:hover{opacity: 1;transition: 1s}
+.da{width: 200px;
+height: 200px;
+margin-top:900px ;
+margin-left:1700px ;
+transition: 1s;
+}
+
+.govor{width: 200px;
+height: 100px;
+position: relative;left: 1500;
+bottom: 200px; 
+opacity: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;}
+.da:hover~.govor{ opacity: 1;
+}
+@media(max-width:600px){.ura
+{
+    width: 100%;
+    height: 40px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    color:black;
+}
+a:hover{background-color: burlywood;
+    transition: 1s;
+}
+h1{text-align: center;}
+.main
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+display: grid;
+grid-template-columns: 100px 100px 100px 100px 100px;
+grid-template-rows: 100px 100px 150px;
+grid-template-areas:
+"tri dva dva fo fo"
+" raz raz ten nine eight"
+"five six seven seven seven"
+;
+border: none;
+}
+div{border: 1px solid black;}
+.raz{grid-area:raz ;background-color: red;opacity: 0.5;}
+.dva{grid-area:dva ;background-color:blue ;opacity: 0.5;}
+.tri{grid-area: tri;background-color: green;opacity: 0.5;}
+.fo{grid-area: fo;background-color: greenyellow;opacity: 0.5;}
+.five{grid-area:five ;background-color:yellow ;opacity: 0.5;}
+.six{grid-area: six;background-color: orange;opacity: 0.5;}
+.seven{grid-area:seven ;background-color:fuchsia ;opacity: 0.5;}
+.eight{grid-area:eight ;background-color:aqua ;opacity: 0.5;}
+.nine{grid-area:nine ;background-color: aquamarine;opacity: 0.5;}
+.ten{grid-area:ten ;background-color: palevioletred;opacity: 0.5;}
+
+.raz:hover{opacity: 1;transition: 1s}
+.dva:hover{opacity: 1;transition: 1s}
+.tri:hover{opacity: 1;transition: 1s}
+.fo:hover{opacity: 1;transition: 1s}
+.five:hover{opacity: 1;transition: 1s}
+.six:hover{opacity: 1;transition: 1s}
+.seven:hover{opacity: 1;transition: 1s}
+.eight:hover{opacity: 1;transition: 1s}
+.nine:hover{opacity: 1;transition: 1s}
+.ten:hover{opacity: 1;transition: 1s}
+.da{width: 200px;
+height: 200px;
+margin-top:900px ;
+margin-left:400px ;
+transition: 1s;
+}
+
+.govor{width: 200px;
+height: 100px;
+position: relative;left: 200;
+bottom: 200px; 
+opacity: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;}
+.da:hover~.govor{ opacity: 1;
+}}
